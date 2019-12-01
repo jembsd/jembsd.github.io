@@ -20,7 +20,7 @@ url                      : https://jembsd.github.io # the base hostname & protoc
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jembsd/jembsd.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.jpg"
+logo                     : ""
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/kung_fury_ava.jpg"
+  avatar           : "/assets/images/kf-avatar.jpg"
   bio              : "Cyber Security Neophyte"
   location         : "Australia"
   links:
