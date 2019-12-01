@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Joel"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/retro.jpg"
   bio              : "Cyber Security Neophyte"
   location         : "Australia"
   email            :
