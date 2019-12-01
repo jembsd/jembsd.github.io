@@ -22,7 +22,7 @@ subtitle                 : " "
 name                     : "Joel"
 description              : "Just a place to document or share my adventures"
 url                      : "https://jembsd.github.io"
-baseurl                  : "https://jembsd.github.io"
+baseurl                  : 
 repository               : "jembsd/jembsd.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Joel"
-  avatar           : "/assets/images/retro.png"
+  avatar           : "/docs/assets/images/retro.png"
   bio              : "Cyber Security Neophyte"
   location         : "Australia"
   email            :
