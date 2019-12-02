@@ -7,8 +7,9 @@ header:
 permalink: /about/
 ---
 
-# whoami
+## whoami
+
 
 I'm Joel, an Information Security Specialist currently working in the finance industry here in Australia.
 
-I created this blog as a place to document and share my learnings, research, walkthroughs and anything else related to cyber security that I may be working on in my spare time.
+This blog will serve as a place to document and share my current learnings, research, walkthroughs and anything else related to cyber security that I may be working on in my spare time.
