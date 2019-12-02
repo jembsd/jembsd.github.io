@@ -11,7 +11,7 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "JEMBSD's Blog"
+title                    : "Jembsd's Blog"
 title_separator          : "-"
 subtitle                 : ""
 name                     : &name "Joel" # &name is a YAML anchor which can be *referenced later
@@ -100,8 +100,8 @@ social:
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-2011187-3" # Replace this with your ID, or delete
-    anonymize_ip         : true
+    tracking_id          : "UA-153653490-1" # Replace this with your ID, or delete
+    anonymize_ip         : false
 
 
 # Site Author
