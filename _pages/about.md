@@ -7,7 +7,7 @@ header:
 permalink: /about/
 ---
 
-## whoami
+## $ whoami
 
 
 I'm Joel, an Information Security Specialist currently working in the finance industry here in Australia.
