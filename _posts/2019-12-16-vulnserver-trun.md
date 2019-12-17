@@ -281,6 +281,8 @@ session.fuzz()
 
 
 
+
+
 Save that to a file on your dev machine (be sure to `chmod +x`), then open Immunty Debugger and attach it to vulnserver.exe on the target:
 
 1. Open Immunity Debugger
@@ -312,7 +314,7 @@ From your exploit dev machine start the fuzzer:
 ./tcp-fuzz-sgroup.py -t 10.6.6.200 -p 9999 -f win7-session.log
 ```
 
-You'll be greeted with the curses interface (which can be disabled by setting "console_gui=0" in the Session initiation) as boofuzz gets to work running through its test cases.
+You'll be greeted with the curses interface as boofuzz gets to work running through its test cases.
 
 There are 35,724 test cases by default so multiply that by 12 for each command, so it will take some time as boofuzz works through them.
 
@@ -324,9 +326,9 @@ Another thing to note is boofuzz also has a web interface you can access to moni
 
 After sometime, boofuzz will make its way through to the TRUN command and the vulnserver.exe application will eventually crash.
 
-![image-20191216162731454](../assets/images/image-20191216162731454.png)
+<img src="../assets/images/image-20191216162731454.png" alt="image-20191216162731454"  />
 
-We can see from console that test case #11919 caused the "No banner recieved" error. So most likely whatever happed before this test case caused the application to no longer respond with its welcome banner.
+We can see from console that test case #11919 caused the "No banner recieved" message. So most likely whatever happed before this test case caused the application to no longer respond with its welcome banner.
 
 Un-checking "snap to current test case" and click the left arrow to view the previous test case we can see that a 5013 byte string was sent to the TRUN command:
 
