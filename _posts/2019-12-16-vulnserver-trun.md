@@ -1,6 +1,7 @@
 ---
 
 layout: single
+classes: wide
 title: "Exploiting Vulnserver Part 1 - TRUN"
 tags: [Exploitation, OSCE]
 toc: true
