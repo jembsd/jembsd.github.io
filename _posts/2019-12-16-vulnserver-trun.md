@@ -2,7 +2,6 @@
 
 layout: single
 title: "Exploiting Vulnserver Part 1 - TRUN"
-subtitle: "Test"
 tags: [Exploitation, OSCE]
 toc: true
 toc_label: "Contents"
@@ -203,7 +202,7 @@ A callback is basically executed in-between requests and can be used as banner c
 
 Boofuzz by default logs to an SQLlite database. You can however configure it to log to a CSV if that is preferred, but I'm fine with the defaults and using DB Browser to analyse results.
 
-#### Begin Fuzzing
+## Boofuzz Script
 
 Below is our script I've called `tcp-fuzz-sgroup-cb.py`. 
 
