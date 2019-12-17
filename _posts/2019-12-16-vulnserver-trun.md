@@ -7,7 +7,7 @@ toc: true
 toc_label: "Contents"
 toc_icon: "cog"
 header:
-  overlay_image: /assets/images/post-default-cover.jpg
+  overlay_image: /assets/images/neon-circuit-cover.jpg
 ---
 
 Today I'm going to be running over some exploitation techniques using a piece of software created by Stephen Bradshaw called Vulnserver. As it's name suggests, it's preceily that, a small TCP socket application that contains various coding vulnerabilities in some of its functions.
