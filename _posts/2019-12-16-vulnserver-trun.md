@@ -84,7 +84,7 @@ If you want to follow along, you'll need to setup and install the following.
 - A Windows XP or Windows 7 VM (I'm using Windows 7 Pro x64)
 - You may need to adjust the firewall to permit access to your application for testing
 
-#### Tooling
+**Tooling**
 
 - Install Python 2.7
 - Install Immunity Debugger
@@ -94,7 +94,7 @@ If you want to follow along, you'll need to setup and install the following.
 
 - Linux distribution (I'm using Kali Linux)
 
-#### Tooling
+**Tooling**
 
 - Metasploit Framework (`apt install metasploit-framework`)
 
@@ -115,6 +115,8 @@ So let's launch `vulnserver.exe` and see how it behaves.
 **Launching Vulnserver**
 
 ![image-20191216135509761](../assets/images/image-20191216135509761.png)
+
+
 
 We use `nc` to connect and are greeted with a welcome banner:
 
@@ -273,12 +275,16 @@ session.connect(s_get("packet"), callback=get_banner)
 session.fuzz()
 ```
 
+
+
 Save that to a file on your dev machine (be sure to `chmod +x`), then open Immunty Debugger and attach it to vulnserver.exe on the target:
 
 1. Open Immunity Debugger
 2. File > Attach > Browse to vulnserver.exe
 
 Now when you attach a debugger to a process it will start in a paused state, so hit `F9` to run it.
+
+
 
 > Immunity Debugger - Shortcuts (MacOs)
 >
@@ -293,6 +299,8 @@ Now when you attach a debugger to a process it will start in a paused state, so 
 > | Enter          | Follow instruction in dissassembler      |
 > | -              | Return from instruction in dissassembler |
 >
+
+
 
 From your exploit dev machine start the fuzzer:
 
