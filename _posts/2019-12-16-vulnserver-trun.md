@@ -6,8 +6,6 @@ header:
   overlay_image: /assets/images/post-default-cover.jpg.
 ---
 
-Introduction
-
 Today I'm going to be running over some exploitation techniques using a piece of software created by Stephen Bradshaw called Vulnserver. As it's name suggests, it's preceily that, a small TCP socket application that contains various coding vulnerabilities in some of its functions.
 
 > Vulnserver is a multithreaded Windows based TCP server that listens for client connections on port 9999 (by default) and allows the user to run a number of different commands that are vulnerable to various types of exploitable buffer overflows.
