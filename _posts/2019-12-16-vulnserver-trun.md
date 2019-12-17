@@ -2,9 +2,10 @@
 
 layout: single
 title: "Exploiting Vulnserver Part 1 - TRUN"
+subtitle: "Test"
 tags: [Exploitation, OSCE]
 toc: true
-toc_label: "Table of Contents"
+toc_label: "Contents"
 toc_icon: "cog"
 header:
   overlay_image: /assets/images/post-default-cover.jpg
@@ -358,7 +359,7 @@ So a few things to notice about this crash:
 
 Let's now confirm these observations.
 
-### Exploit PoC
+## Exploit PoC
 
 We will create a basic exploit skeleton in python to use for testing. 
 
@@ -419,13 +420,11 @@ except:
 | 31    | Try to initiate a connection, if it fails, print out connect failed |
 | 33-37 | Actual socket initiation                                     |
 
-
-
-### Crash Buffer Tweaking
+## Crash Buffer Tweaking
 
 How much buffer to send?
 
-### Examining Space
+## Examining Space
 
 Where and what parts of memory do I control?
 
