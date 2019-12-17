@@ -3,6 +3,9 @@
 layout: single
 title: "Exploiting Vulnserver Part 1 - TRUN"
 tags: [Exploitation, OSCE]
+toc: true
+toc_label: "My "Table of Contents"
+toc_icon: "cog"
 header:
   overlay_image: /assets/images/post-default-cover.jpg.
 ---
