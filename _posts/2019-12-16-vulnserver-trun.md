@@ -1,4 +1,5 @@
 ---
+
 layout: single
 title: "Exploiting Vulnserver Part 1 - TRUN"
 tags: [Exploitation, OSCE]
@@ -405,6 +406,8 @@ except:
 
 ```
 
+
+
 | Line  | Comment                                                      |
 | ----- | ------------------------------------------------------------ |
 | 3-7   | We'll be using TCP sockets for our connection so we import `socket`. We'll also be using `pack` from `struct` so we do not need to worry about writing memory addressing in reverse to accomodate for little-endian etc. |
@@ -415,7 +418,7 @@ except:
 
 
 
-###Crash Buffer Tweaking
+### Crash Buffer Tweaking
 
 How much buffer to send?
 
