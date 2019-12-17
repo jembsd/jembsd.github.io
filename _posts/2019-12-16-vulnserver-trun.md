@@ -103,10 +103,8 @@ If you want to follow along, you'll need to setup and install the following.
 - Metasploit Framework (`apt install metasploit-framework`)
 
   - `msfvenom`
-
-  - `msf-pattern_create` / `msf-pattern_offset`
-
-    `msf-metasm_shell`
+- `msf-pattern_create` / `msf-pattern_offset``
+  - ``msf-metasm_shell`
 
 - Python 2.7 or 3.6 (`apt install python`)
 
