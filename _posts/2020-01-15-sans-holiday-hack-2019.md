@@ -3,16 +3,33 @@ layout: single
 classes: wide
 title: "SANS Holiday Hack Challenge 2019"
 tags: [SANS, CTF]
-toc: false
+toc: true
 toc_label: "Contents"
 toc_icon: "cog"
 header:
-  overlay_image: /assets/images/neon-circuit-cover.jpg
+  overlay_image: /assets/images/sanshh19.jpg
 ---
+
+Over the holidays I managed to complete the 2019 SANS Holiday Hack Challenge: KringleCon 2: Turtle Doves. I saw this last year, however, I never had time to actually jump in and see what it's all about.
+
+I must say, after spending a few days working my way around and tackling the objectives, I was blown away by the amount of effort that the [SANS](https://www.sans.org) and [CounterHack](https://www.counterhackchallenges.com) crew put into getting this setup.
+
+In a nutshell, you create a character and are free to roam around KringleCon. 
+
+You main goal is to unravel who has set out to destroy Christmas this year by completing 12 main objectives which range from log analysis tasks using different tools including Splunk, web application challenges, working with machine learning to reverse engineering a small encryption tool used within ELF University.
+
+Enjoy my writeup, I look forward to seeing how others went about solving the objectives.
+
+My key takeaways:
+
+* Struggling with some of the objectives really boosted my python knowledge.
+* It was key to breakdown larger objectives into much small ones, especially around coding and with many things, start very small then work up from that.
 
 ![image-20200114090127430](../assets/images/image-20200114090127430.png)
 
 # KringleCon 2019 Event Summary
+
+A breakdown of the objectives:
 
 | Event                           | Descrption                                                   |
 | ------------------------------- | ------------------------------------------------------------ |
