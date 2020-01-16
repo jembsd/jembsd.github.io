@@ -18,6 +18,8 @@ In a nutshell, you create a character and are free to roam around KringleCon.
 
 You main goal is to unravel who has set out to destroy Christmas this year by completing 12 main objectives which range from log analysis tasks using different tools including Splunk, web application challenges, working with machine learning to reverse engineering a small encryption tool used within ELF University.
 
+Along the way you will run into many Elve's who all seem to find themselves with some sort of issue they need some assistance with. Helping these guys out will provide you with a few hints for the main objectives.
+
 Enjoy my writeup, I look forward to seeing how others went about solving the objectives.
 
 My key takeaways:
