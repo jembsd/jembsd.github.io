@@ -7,8 +7,10 @@ toc: true
 toc_label: "Contents"
 toc_icon: "cog"
 header:
-  overlay_image: /assets/images/sanshh19.jpg
+  overlay_image: /assets/images/neon-circuit-cover.jpg
 ---
+
+![image-20200116164351733](../assets/images/image-20200116164351733.png)
 
 Over the holidays I managed to complete the 2019 SANS Holiday Hack Challenge: KringleCon 2: Turtle Doves. I saw this last year, however, I never had time to actually jump in and see what it's all about.
 
@@ -24,8 +26,6 @@ My key takeaways:
 
 * Struggling with some of the objectives really boosted my python knowledge.
 * It was key to breakdown larger objectives into much small ones, especially around coding and with many things, start very small then work up from that.
-
-![image-20200114090127430](../assets/images/image-20200114090127430.png)
 
 # KringleCon 2019 Event Summary
 
